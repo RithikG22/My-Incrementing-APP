@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+.buttons-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+#para1{
+    font-size: 60px;
+    color: green;
+}
+.buttons-container button{
+    padding: 22px 30px ;
+    border: none;
+    /* background-color: aqua; */
+    color: black;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+}
+.background-color-green{
+    background-color: rgb(0, 88, 0);
+}
+.background-color-blue{
+    background-color: rgb(1, 50, 123);
+}
+.background-color-red{
+    background-color: rgb(234, 0, 0);
+}
+.save-btn{
+    margin-top: 20px;
+    /* padding: 8px 30px ; */
+    border: none;
+    /* background-color: aqua; */
+    color: black;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: rgb(46, 46, 46);
+}
+
+#savedd{
+    letter-spacing: 10px;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    font-size: 30px;
+    font-weight: medium;
+    
+}
+button{
+    cursor: pointer;
+    padding: 20px;
+}
+.credits{
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgb(0, 136, 204);
+    margin-top: 30px;
+    font-weight: bold;
+    color: white;
+}
